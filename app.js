@@ -10,6 +10,16 @@ const poiData = {
       "3D scanned interior (future)",
     ],
   },
+  oasis: {
+    name: "Oasis",
+    description:
+      "Description",
+    features: [
+      "24/7 access",
+      "AR navigation planned",
+      "3D scanned interior (future)",
+    ],
+  },
   cafeteria: {
     name: "Campus Cafeteria",
     description:
