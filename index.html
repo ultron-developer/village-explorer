@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Campus Explorer Prototype</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Campus Explorer</h1>
+      <p>Prototype: custom map + interactive POIs + simple 3D preview</p>
+    </header>
+
+    <main class="app-main">
+      <!-- Left: Map -->
+      <section class="map-section">
+        <div id="map-container">
+          <!-- Custom SVG map -->
+          <object
+            id="map-svg"
+            type="image/svg+xml"
+            data="assets/map.svg"
+          ></object>
+
+          <!-- Overlay markers (absolute positioned) -->
+          <button
+            class="poi-marker"
+            data-id="library"
+            style="top: 40%; left: 30%"
+          >
+            ●
+          </button>
+          <button
+            class="poi-marker"
+            data-id="cafeteria"
+            style="top: 60%; left: 55%"
+          >
+            ●
+          </button>
+          <button class="poi-marker" data-id="lab" style="top: 25%; left: 70%">
+            ●
+          </button>
+        </div>
+      </section>
+
+      <!-- Right: Info + 3D preview -->
+      <section class="info-section">
+        <div id="poi-info">
+          <h2>Tap a location on the map</h2>
+          <p>Select a marker to see details.</p>
+        </div>
+
+        <div class="preview-3d-wrapper">
+          <h3>3D Building Preview</h3>
+          <p>Simple 3D block—placeholder for scanned model or 360° view.</p>
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bottom</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Prototype demo – HTML/CSS/JS only</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
