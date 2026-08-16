@@ -34,21 +34,20 @@ body {
     display: block;
 }
 
-
-
 .info-section {
     flex: 1.5;
     padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    display: none
 }
 
 /* Map container */
 #map-container {
     position: relative;
     width: 100%;
-    /* max-width: 775px; */
+    max-width: 775px;
 
     margin: auto;
     aspect-ratio: 4 / 3;
@@ -103,6 +102,15 @@ body {
     padding: 1rem;
     border: 1px solid #1f2937;
     min-height: 120px;
+}
+
+#closeBtn {
+    background: #020617;
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid #1f2937;
+    color: #f9fafb;
+    cursor: pointer;
 }
 
 /* 3D preview */
@@ -243,8 +251,8 @@ body {
     }
 
     #map-container {
-        width: 275px;
-        height: 206.25px;
+        width: 350px;
+        height: 262.5px;
     }
 
     .poi-marker {

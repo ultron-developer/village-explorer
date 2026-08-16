@@ -12,8 +12,7 @@ const poiData = {
   },
   oasis: {
     name: "Oasis",
-    description:
-      "Description",
+    description: "Description",
     features: [
       "24/7 access",
       "AR navigation planned",
@@ -39,12 +38,19 @@ const poiData = {
 };
 
 const infoPanel = document.getElementById("poi-info");
+const dataPanel = document.getElementById("info-section");
 const markers = document.querySelectorAll(".poi-marker");
+const closeBtn = document.getElementById("closeBtn");
+
+closeBtn.addEventListener("click", () => {
+  dataPanel.style.display = "none";
+});
 
 markers.forEach((marker) => {
   marker.addEventListener("click", () => {
     const id = marker.dataset.id;
     const poi = poiData[id];
+    dataPanel.style.display = "flex";
     if (!poi) return;
 
     infoPanel.innerHTML = `
