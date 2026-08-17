@@ -78,3 +78,41 @@ document.addEventListener("keydown", (e) => {
     document.querySelector(`.poi-marker[data-id="${ids[prevIndex]}"]`)?.focus();
   }
 });
+
+const tooltip = document.createElement("div");
+tooltip.className = "map-tooltip";
+document.body.appendChild(tooltip);
+
+let hoverTimer = null;
+
+markers.forEach((marker) => {
+  marker.addEventListener("mouseenter", () => {
+    const id = marker.dataset.id;
+    const data = poiData[id];
+
+    if (!data) return;
+
+    hoverTimer = setTimeout(() => {
+      tooltip.innerHTML = `
+        <strong>${data.name}</strong><br>
+        ${data.description}
+      `;
+
+      // Position tooltip
+      const rect = marker.getBoundingClientRect();
+
+      const centerX = rect.left + rect.width / 2;
+      const aboveY = rect.top + window.scrollY + 55; // tooltip above marker
+
+      tooltip.style.left = centerX + "px";
+      tooltip.style.top = aboveY + "px";
+
+      tooltip.classList.add("show");
+    }, 800);
+  });
+
+  marker.addEventListener("mouseleave", () => {
+    clearTimeout(hoverTimer);
+    tooltip.classList.remove("show");
+  });
+});
