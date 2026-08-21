@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #cfffab;
+    background: #A1C04B;
     color: #e5e7eb;
 }
 
@@ -27,9 +27,12 @@ body {
     border-right: 1px solid #1f2937;
     padding: 1rem;
     height: 100vh;
+    align-content: center;
 }
 
 .map-image {
+    border: 2px solid black;
+    border-radius: 15px;
     width: 100%;
     height: auto;
     display: block;
@@ -42,14 +45,23 @@ body {
     flex-direction: column;
     gap: 1rem;
     display: none;
+    align-content: center;
+    background: #13423B;
+    height: 100vh;
+}
+
+.poi-label {
+    font-size: 12px;
+    z-index: 1;
+    background-color: #13423B;
+    border-radius: 6px;
+    padding: 1px 11px 4px;
 }
 
 
 /* Map container */
 #map-container {
     position: relative;
-    /* width: 100%; */
-    /* max-width: 775px; */
     max-height: 100%;
     border-radius: 10px;
     margin: auto;
@@ -68,7 +80,7 @@ body {
 .poi-marker {
     position: absolute;
     transform: translate(-50%, -50%);
-    background: transparent;
+    /* background: transparent; */
     border: none;
     cursor: pointer;
     height: auto;
