@@ -1,39 +1,28 @@
 // Simple POI data model
 const poiData = {
-  library: {
-    name: "Central Library",
+  TownSign: {
+    name: "Town Sign",
     description:
-      "Main study hub with quiet zones, group rooms, and a digital media lab.",
-    features: [
-      "24/7 access",
-      "AR navigation planned",
-      "3D scanned interior (future)",
-    ],
+      "Description",
+    features: ["24/7 access", "24/7 access", "24/7 access"],
   },
-  oasis: {
-    name: "Oasis",
-    description: "Description",
-    features: [
-      "24/7 access",
-      "AR navigation planned",
-      "3D scanned interior (future)",
-    ],
-  },
-  cafeteria: {
-    name: "Campus Cafeteria",
+  TownSign: {
+    name: "Town Sign",
     description:
-      "Food court with multiple vendors, outdoor seating, and live events on weekends.",
-    features: [
-      "Live menu in app",
-      "Queue tracking",
-      "360° kitchen tour (future)",
-    ],
+      "Description",
+    features: ["24/7 access", "24/7 access", "24/7 access"],
   },
-  lab: {
-    name: "Innovation Lab",
+  TownSign: {
+    name: "Town Sign",
     description:
-      "Makerspace with 3D printers, VR rigs, and scanning tools for student projects.",
-    features: ["3D asset upload", "Scan-to-map integration", "IoT sensors"],
+      "Description",
+    features: ["24/7 access", "24/7 access", "24/7 access"],
+  },
+  TownSign: {
+    name: "Town Sign",
+    description:
+      "Description",
+    features: ["24/7 access", "24/7 access", "24/7 access"],
   },
 };
 
@@ -102,7 +91,7 @@ markers.forEach((marker) => {
       const rect = marker.getBoundingClientRect();
 
       const centerX = rect.left + rect.width / 2;
-      const aboveY = rect.top + window.scrollY + 55; // tooltip above marker
+      const aboveY = rect.top + window.scrollY + 100; // tooltip above marker
 
       tooltip.style.left = centerX + "px";
       tooltip.style.top = aboveY + "px";
