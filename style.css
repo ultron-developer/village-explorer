@@ -103,19 +103,25 @@ body {
 
 /* Info panel */
 #poi-info {
-    background: #020617;
+    background: #f9c685;
+    border: 5px solid #b87c2e;
     border-radius: 12px;
+    color: #13413B;
     padding: 1rem;
-    border: 1px solid #1f2937;
+    /* border: 1px solid #1f2937; */
     min-height: 120px;
 }
 
 #closeBtn {
-    background: #020617;
-    border-radius: 12px;
+    width: 50px;
+    font-weight: 600;
+    margin: 5px auto;
+    /* display: inline-block; */
+    background: #749733;
+    border-radius: 50%;
     padding: 1rem;
-    border: 1px solid #1f2937;
-    color: #f9fafb;
+    border: none;
+    color: white;
     cursor: pointer;
 }
 
