@@ -242,11 +242,11 @@ body {
     }
 
     .info-section-image img {
-        height: 70;
+        height: 70px;
     }
 
     .scene {
-        width: 100px;
+        width: 100px;   
         height: 100px;
     }
 
