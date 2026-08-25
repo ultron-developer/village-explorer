@@ -234,7 +234,7 @@ body {
     }
 
     .poi-info-p {
-        font-size: 7px;
+        font-size: 9px;
     }
 
     #poi-info h2 {
@@ -242,7 +242,7 @@ body {
     }
 
     .info-section-image img {
-        height: 100px;
+        height: 70;
     }
 
     .scene {
