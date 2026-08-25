@@ -51,6 +51,8 @@ body {
 }
 
 .info-section-image {
+    display: flex;
+    padding: 10px;
     background: #95ba50;
     border: 5px solid #4e9549;
     border-radius: 10px;
@@ -171,7 +173,7 @@ body {
         gap: 20px;
     }
 
-    .poi-info-p{
+    .poi-info-p {
         font-size: 12px;
     }
 
@@ -229,6 +231,18 @@ body {
 
     .poi-label {
         font-size: 6px;
+    }
+
+    .poi-info-p {
+        font-size: 7px;
+    }
+
+    #poi-info h2 {
+        font-size: 15px;
+    }
+
+    .info-section-image img {
+        height: 100px;
     }
 
     .scene {
