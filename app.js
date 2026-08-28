@@ -80,7 +80,7 @@ const poiData = {
   },
   TownSign: {
     name: "Town Sign",
-    image: "Sign",
+    image: "Sign.v2",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
   },
