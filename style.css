@@ -73,21 +73,22 @@ body {
     font-size: 13px;
 }
 
+/* Hover effect for the map text box */
 .map-text-box:hover {
   background: rgb(112, 0, 0);  
-  transform: rotate(360deg);
-  transition: transform 2s ease-in-out;
+  transform: scale(1.1);
+  transition: transform 2s ease-in-out, background 0.5s ease-in-out;
 
   h2 {
-    color: #fdffa0c3;
+    color: #fff3adc3;
   }
 
-  p {
-    color: #f7ffdcb3;
-  }
+  p { font-size: 0;}
+  
   p::after {
     color: #f7ffdc;
-    content: "Click Any Icon to explore the town! :D "; 
+    content: attr(data-hover);
+    font-size: 17px;
     font-weight: bold;
   }
 }
