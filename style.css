@@ -61,6 +61,7 @@ body {
     color: #ffff;
 }
 
+
 .map-text-box h2 {
     margin-bottom: 5px;
     font-size: 35px;
@@ -72,7 +73,24 @@ body {
     font-size: 13px;
 }
 
+.map-text-box:hover {
+  background: rgb(112, 0, 0);  
+  transform: rotate(360deg);
+  transition: transform 2s ease-in-out;
 
+  h2 {
+    color: #fdffa0c3;
+  }
+
+  p {
+    color: #f7ffdcb3;
+  }
+  p::after {
+    color: #f7ffdc;
+    content: "Click Any Icon to explore the town! :D "; 
+    font-weight: bold;
+  }
+}
 /* POP-UP */
 
 .info-section {

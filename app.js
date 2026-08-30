@@ -4,86 +4,73 @@ const poiData = {
     name: "Bridge",
     image: "Bridge",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
+      "That rustic wooden dock and bridge leads right out over the water. It’s one of the prettiest spots to stand, feel the fresh air, and watch the small fishing boats drift by.",
   },
   Fountain: {
     name: "Fountain",
     image: "Fountain",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "The fountain is our absolute favorite landmark! People love to sit on the stone bench to chat, listen to the splashing water, and toss in a shiny coin to make a wish."  },
   Cemetery: {
     name: "Cemetery",
     image: "Cemetery",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+     "Close by the cliff is our old cemetery. It’s very quiet and peaceful, sitting right on the grassy fieldswith a lovely view of the waves and a gentle ocean breeze."  },
   Hospital: {
     name: "Hospital",
     image: "Hospital",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "That’s our local hospital right along our main roads. The doctors and nurses there are so sweet and caring, so everyone in town always feels like they’re in good hands."},
   School: {
     name: "School",
     image: "School",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "Here’s where all the neighborhood kids go to school. You can hear the bells ringing and kids playing outside every afternoon—it brings so much happy energy to the whole area." },
   Neighborhood: {
     name: "Neighborhood",
     image: "Neighborhood",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "This is where most of us live! It’s such a charming neighborhood with bright roofs, lush little lawns, and friendly neighbors who always wave hello from their porches." },
   Bakery: {
     name: "Bakery",
     image: "Bakery",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+     "That's our bakery right by the water! The smell of fresh cinnamon rolls and warm bread hits you the second you walk up the hill. Grab a coffee, sit at the outdoor tables, and enjoy the gorgeous morning view. ;D "},
   BookStore: {
     name: "Book Store",
     image: "BookStore",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+    "Here’s our little bookstore. It’s super quiet and cozy inside, packed to the brim with shelves of amazing stories, local maps, and comfy chairs—I could honestly spend hours lost in the aisles."},
   Pond: {
     name: "Pond",
     image: "Pond",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "Just below the park sits this quiet little pond. It’s super tranquil, and you’ll almost always see ducks floating around or dragonflies skimming the water on warm summer days."},
   TownCentre: {
     name: "Town Centre",
     image: "TownCentre",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+     "This is the town center, basically the heart of everything! It’s where everyone ends up bumping into each other to catch up, grab a bite, or gather around for local weekend events."},
   Forest: {
     name: "Forest",
     image: "Forest",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+    "Up past the shops is our forest. It’s full of tall pine trees, rustling leaves, and cool little hidden trails—it's my favorite escape whenever you just need a peaceful walk in nature. :) "},
   Playground: {
     name: "Park",
     image: "Playground",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "Right next to the trees is the park! Kids love playing on the slide, and it’s honestly the best spot in town to lay out a picnic blanket and soak up the sunshine."},
   Garden: {
     name: "Garden",
     image: "Garden",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+      "Over here is the community garden! It’s always bursting with bright, colorful flowers and fresh vegetable patches, with tiny bumblebees buzzing around all season long where the community comes to relax and enjoy the outdoors for the whole family! XD"  },
   TownSign: {
     name: "Town Sign",
     image: "Sign.v2",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sem id ante tempus consequat. Nullam sit amet ipsum faucibus, feugiat libero vel, hendrerit diam. Curabitur sed libero mi. Nunc aliquam euismod vestibulum. Aenean tellus nunc, pulvinar vitae quam ut, dictum aliquam sem. Proin semper metus eget bibendum mattis.",
-  },
+     "Welcome to our Town, *Town Name village*!<br><br>We’re so glad you made it, and we hope you have an absolute blast exploring all the lovely spots around our town and meeting the friendly locals. Don’t forget to take a picture with our iconic town sign before you leave!"  },
 };
 
 const infoPanel = document.getElementById("poi-info");
