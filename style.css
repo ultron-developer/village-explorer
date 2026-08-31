@@ -75,9 +75,9 @@ body {
 
 /* Hover effect for the map text box */
 .map-text-box:hover {
-  background: rgb(112, 0, 0);  
+  background: rgb(0, 76, 14);  
   transform: scale(1.1);
-  transition: transform 2s ease-in-out, background 0.5s ease-in-out;
+  transition: transform 1s ease-in-out, background 0.5s ease-in-out;
 
   h2 {
     color: #fff3adc3;
